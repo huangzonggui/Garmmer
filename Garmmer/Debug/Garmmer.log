@@ -1,72 +1,72 @@
-﻿Build started 2016/12/6 22:19:11.
+﻿Build started 2016/12/8 9:21:20.
      1>Project "F:\Workspaces\TextBookExperiment\Garmmer\Garmmer\Garmmer.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Garmmer.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          f:\DevTools\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
          main.c
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(33): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 f:\devtools\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(47): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\devtools\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(53): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(69): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(76): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(75): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(82): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(109): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(116): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(126): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(133): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
      1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(152): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(155): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(158): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(167): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(169): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(172): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(179): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(182): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(189): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(188): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(195): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(200): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(207): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(201): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(209): warning C4047: '=' : 'char' differs in levels of indirection from 'void *'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(289): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(216): warning C4047: '=' : 'char' differs in levels of indirection from 'void *'
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(296): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(290): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(297): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(291): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(298): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(299): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\devtools\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
-     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(114): warning C4715: 'statement' : not all control paths return a value
+     1>f:\workspaces\textbookexperiment\garmmer\garmmer\main.c(121): warning C4715: 'statement' : not all control paths return a value
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -85,4 +85,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.36
+Time Elapsed 00:00:00.78

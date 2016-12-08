@@ -8,3 +8,5 @@ t1 = 2 * 3
 x = t1
 t2 = a + x
 b = t2 
+²Î¿¼´úÂë£º
+http://wenku.baidu.com/link?url=Xzzz16QQXRzwaPriL-7KYcUrHUdusp77y8rnwm0UaSHZkJ63GyOiDHAX7TQITNrACIQ65IK-E7tStNHqzDhiT6naHtqIF18ieBRmvoHGesu

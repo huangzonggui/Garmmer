@@ -27,12 +27,17 @@ void emit(char *result,char *ag1,char *op,char *ag2);
 
 main(){
 	int j;
+	FILE *fp;
 	q=p=kk=0;
-	printf("\nplease input a string(end with '#')\n");
-	do{
-		scanf("%c",&ch);
+	//通过文件输入
+	if ((fp=fopen("tokens.txt","r"))==NULL){
+		printf("cannot open this file\n");
+		exit(0);
+	}
+	while ((ch=fgetc(fp))!=EOF){
 		prog[p++]=ch;//将ch语句中的每个字符赋值给prog数组
-	} while (ch!='#');
+	}
+	fclose(fp);
 	p=0;
 	scaner();
 	lrparser();
@@ -58,7 +63,8 @@ int lrparser(){
 		if (syn==6){
 			scaner();
 			//是否‘#’&&？
-			if ((syn==0&&(kk!=1))){//&&(kk==0)?
+			//printf("%d",kk);
+			if ((syn==0)){//&&(kk==0)?
 				printf("Success!\n");
 			}
 		}else{
